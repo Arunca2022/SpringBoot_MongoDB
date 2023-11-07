@@ -2,7 +2,7 @@ version: "3"
 services:
   springbootmongodb:
     image: mongo:latest
-    container_name: "springbootmongodb"
+    container_name: "springboot-mongodb"
     ports:
       - 27017:27017
   springboot-mongodb:
